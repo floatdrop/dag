@@ -1,0 +1,36 @@
+{
+  "name": "dag",
+  "version": "0.0.0",
+  "description": "Directed acyclic graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec",
+    "coverage": "istanbul cover node_modules/.bin/_mocha --report html -- -R spec",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floatdrop/dag.git"
+  },
+  "keywords": [
+    "dag",
+    "graph",
+    "acyclic"
+  ],
+  "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/floatdrop/dag/issues"
+  },
+  "homepage": "https://github.com/floatdrop/dag",
+  "devDependencies": {
+    "coveralls": "~2.10.0",
+    "express": "~3.5.1",
+    "istanbul": "~0.2.7",
+    "jshint": "~2.4.4",
+    "mocha": "~1.18.2",
+    "mocha-lcov-reporter": "~0.0.1",
+    "should": "~3.2.0"
+  },
+  "dependencies": {}
+}
