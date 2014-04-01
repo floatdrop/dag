@@ -2,7 +2,7 @@
 
 [![NPM Version](https://badge.fury.io/js/dag.png)](https://npmjs.org/package/dag) [![Build Status](https://travis-ci.org/floatdrop/dag.png?branch=master)](https://travis-ci.org/floatdrop/dag) [![Coverage Status](https://coveralls.io/repos/floatdrop/dag/badge.png?branch=master)](https://coveralls.io/r/floatdrop/dag) [![Code Climate](https://codeclimate.com/github/floatdrop/dag.png)](https://codeclimate.com/github/floatdrop/dag)
 
-Helper for validating cyclic dependencies in [express-djinga](https://github.com/floatdrop/express-dinja).
+Helper for validating cyclic dependencies in [express-dinja](https://github.com/floatdrop/express-dinja).
 
 ## Usage
 
