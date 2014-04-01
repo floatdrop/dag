@@ -1,6 +1,6 @@
 {
   "name": "dag",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Directed acyclic graph",
   "main": "index.js",
   "scripts": {
